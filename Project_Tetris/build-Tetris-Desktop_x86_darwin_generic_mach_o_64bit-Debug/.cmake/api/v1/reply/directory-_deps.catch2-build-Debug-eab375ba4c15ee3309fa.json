@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/catch2-build",
+		"source" : "/Users/alecwaumans/Desktop/tetris-master/Project_Tetris/build-Tetris-Desktop_x86_darwin_generic_mach_o_64bit-Debug/_deps/catch2-src"
+	}
+}

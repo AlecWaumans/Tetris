@@ -1,0 +1,21 @@
+# ninja log v5
+1	65	1715195696815760097	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-mkdir	6ea116189c441256
+1	65	1715195696815760097	/Users/alecwaumans/Desktop/tetris-master/Project_Tetris/build-Tetris-Desktop_x86_darwin_generic_mach_o_64bit-Debug/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-mkdir	6ea116189c441256
+65	7087	1715195703838043745	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-download	8df64d05d724592b
+65	7087	1715195703838043745	/Users/alecwaumans/Desktop/tetris-master/Project_Tetris/build-Tetris-Desktop_x86_darwin_generic_mach_o_64bit-Debug/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-download	8df64d05d724592b
+7087	7215	0	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-update	c9155668adf7386c
+7087	7215	0	/Users/alecwaumans/Desktop/tetris-master/Project_Tetris/build-Tetris-Desktop_x86_darwin_generic_mach_o_64bit-Debug/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-update	c9155668adf7386c
+7215	7287	1715195704037987268	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-patch	6a9b8a95749b116f
+7215	7287	1715195704037987268	/Users/alecwaumans/Desktop/tetris-master/Project_Tetris/build-Tetris-Desktop_x86_darwin_generic_mach_o_64bit-Debug/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-patch	6a9b8a95749b116f
+7287	7344	1715195704095437835	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-configure	e5a23b4e55cb8292
+7287	7344	1715195704095437835	/Users/alecwaumans/Desktop/tetris-master/Project_Tetris/build-Tetris-Desktop_x86_darwin_generic_mach_o_64bit-Debug/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-configure	e5a23b4e55cb8292
+7344	7419	1715195704169962178	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-build	bc6d53c068397ea0
+7344	7419	1715195704169962178	/Users/alecwaumans/Desktop/tetris-master/Project_Tetris/build-Tetris-Desktop_x86_darwin_generic_mach_o_64bit-Debug/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-build	bc6d53c068397ea0
+7419	7489	1715195704240288429	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-install	78e23cc87b3256ab
+7419	7489	1715195704240288429	/Users/alecwaumans/Desktop/tetris-master/Project_Tetris/build-Tetris-Desktop_x86_darwin_generic_mach_o_64bit-Debug/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-install	78e23cc87b3256ab
+7490	7581	1715195704330883095	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-test	f1dcd6db51750a6d
+7490	7581	1715195704330883095	/Users/alecwaumans/Desktop/tetris-master/Project_Tetris/build-Tetris-Desktop_x86_darwin_generic_mach_o_64bit-Debug/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-test	f1dcd6db51750a6d
+7581	7693	1715195704444560477	CMakeFiles/catch2-populate-complete	6d181813cadf0517
+7581	7693	1715195704444560477	catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-done	6d181813cadf0517
+7581	7693	1715195704444560477	/Users/alecwaumans/Desktop/tetris-master/Project_Tetris/build-Tetris-Desktop_x86_darwin_generic_mach_o_64bit-Debug/_deps/catch2-subbuild/CMakeFiles/catch2-populate-complete	6d181813cadf0517
+7581	7693	1715195704444560477	/Users/alecwaumans/Desktop/tetris-master/Project_Tetris/build-Tetris-Desktop_x86_darwin_generic_mach_o_64bit-Debug/_deps/catch2-subbuild/catch2-populate-prefix/src/catch2-populate-stamp/catch2-populate-done	6d181813cadf0517

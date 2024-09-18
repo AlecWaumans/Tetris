@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>904</width>
+    <height>647</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="maximumSize">
+    <size>
+     <width>1202</width>
+     <height>729</height>
+    </size>
+   </property>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>891</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>3</number>
+    </property>
+    <widget class="QWidget" name="tab_settings">
+     <attribute name="title">
+      <string>Tab 0</string>
+     </attribute>
+     <widget class="QCheckBox" name="checkBox_perso_size_yes">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>77</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>yes</string>
+      </property>
+      <property name="autoExclusive">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_perso_size_no">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>90</y>
+        <width>77</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>no</string>
+      </property>
+      <property name="autoExclusive">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_PhrasePerso">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>271</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Would like to have the regular Size of the board ?</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_submit_personalise">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>80</y>
+        <width>80</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Submit</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_2_victory_score">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>130</y>
+        <width>141</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Insert the winning  score :</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_vicotry_level">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>160</y>
+        <width>131</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Insert the victory level :</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_victoryLines">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>190</y>
+        <width>291</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>How many lines  you want to delete to win the game :</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_vicotory_score_value">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>130</y>
+        <width>111</width>
+        <height>24</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_victory_level_value">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>160</y>
+        <width>113</width>
+        <height>24</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_victory_lines_values">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>190</y>
+        <width>113</width>
+        <height>24</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_setter_timer">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>220</y>
+        <width>161</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Set the   timer  in minutes :  </string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_setter_time_value">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>220</y>
+        <width>113</width>
+        <height>24</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_personlise_board">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+     <widget class="QLineEdit" name="lineEdit_insert_height">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>171</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Insert the height of the board : </string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_height_value">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>30</y>
+        <width>113</width>
+        <height>24</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_insert_width">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>70</y>
+        <width>171</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Insert the width of the board :</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_width_value">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>70</y>
+        <width>113</width>
+        <height>24</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_rappelSize">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>140</y>
+        <width>104</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;make sure to choose a  size between 10x10 &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;and 30x25&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="_submit_new_size">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>170</y>
+        <width>80</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Submit</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Tab 2</string>
+     </attribute>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>30</y>
+        <width>201</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Do you want to prefill the board ?</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_yesPrefill">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>70</y>
+        <width>77</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Yes </string>
+      </property>
+      <property name="autoExclusive">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_noPrefill">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>70</y>
+        <width>77</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>No</string>
+      </property>
+      <property name="autoExclusive">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_question_prefill">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>130</y>
+        <width>341</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>How many blocks you want to use to prefill your board with ?</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_blocksToFillValue">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>130</y>
+        <width>113</width>
+        <height>24</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_submit_prefil_board">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>180</y>
+        <width>80</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Submit</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_game">
+     <attribute name="title">
+      <string>Tab 3</string>
+     </attribute>
+     <widget class="QGraphicsView" name="graphicsView">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>421</width>
+        <height>521</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QGraphicsView" name="graphicsView_NextBrick">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>30</y>
+        <width>251</width>
+        <height>221</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_NextBrick">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>10</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Next Brick</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Score">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>270</y>
+        <width>49</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Score</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_Score">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>290</y>
+        <width>113</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Level">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>320</y>
+        <width>49</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Level</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_Level">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>350</y>
+        <width>113</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_Lines">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>390</y>
+        <width>49</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Lines</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_Lines">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>420</y>
+        <width>113</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Restart">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>480</y>
+        <width>80</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Restart</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_Play">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>480</y>
+        <width>80</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Play</string>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_rappelCommands">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>260</y>
+        <width>231</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="tabletTracking">
+       <bool>true</bool>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI'; font-size:9pt;&quot;&gt; Commands : &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;                     Q  : move left&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;                     D : move right &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;                     S : move down&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;                     E: rotate clockwise	&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;                     X : drop the brick&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;                    A : rotate anticlockwise&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;                   &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI'; font-size:9pt;&quot;&gt;    &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="lcdNumber_timer">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>440</y>
+        <width>231</width>
+        <height>23</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>904</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOptios">
+    <property name="title">
+     <string>Optios</string>
+    </property>
+    <addaction name="actionExit"/>
+   </widget>
+   <addaction name="menuOptios"/>
+  </widget>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
